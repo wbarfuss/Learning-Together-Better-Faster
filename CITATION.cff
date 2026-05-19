@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+type: software
+title: "Learning together, better, faster: On the timescales of learning social learning strategies"
+authors:
+  - family-names: Barfuss
+    given-names: Wolfram
+    orcid: https://orcid.org/0000-0002-9077-5242
+    affiliation: "University of Bonn"
+  - family-names: Tittel
+    given-names: Paula
+    affiliation: "Leibniz University Hannover"
+  - family-names: Mann
+    given-names: Richard P.
+    orcid: https://orcid.org/0000-0003-0701-1274
+    affiliation: "University of Leeds"
+license: CC-BY-4.0
+repository-code: "[URL]"
+doi: "[ZENODO-DOI]"
+date-released: "2026-05-19"
+keywords:
+  - social learning strategies
+  - reinforcement learning
+  - environmental uncertainty
+  - nonlinear dynamics
+  - internal timescales
+
+preferred-citation:
+  type: article
+  title: "Learning together, better, faster: On the timescales of learning social learning strategies"
+  authors:
+    - family-names: Barfuss
+      given-names: Wolfram
+      orcid: https://orcid.org/0000-0002-9077-5242
+      affiliation: "University of Bonn"
+    - family-names: Tittel
+      given-names: Paula
+      affiliation: "Leibniz University Hannover"
+    - family-names: Mann
+      given-names: Richard P.
+      orcid: https://orcid.org/0000-0003-0701-1274
+      affiliation: "University of Leeds"
+  journal: "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences"
+  publisher:
+    name: "The Royal Society"
+  year: 2026
+  doi: "[JOURNAL-DOI]"
+  license: CC-BY-4.0
+  keywords:
+    - social learning strategies
+    - reinforcement learning
+    - environmental uncertainty
+    - nonlinear dynamics
+    - internal timescales

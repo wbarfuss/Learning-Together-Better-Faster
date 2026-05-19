@@ -1,0 +1,94 @@
+project:
+  type: book
+  output-dir: __SI-Output
+
+bibliography: Bibliography.bib
+
+filters:
+  - code-visibility
+
+book:
+  title: Supplementary Information
+  subtitle: Learning Together, Better, Faster - On the Timescales of Learning Social Learning Strategies
+  date: last-modified
+  date-format: long
+  chapters:
+    - index.ipynb
+    - j01_ENVI_UncertainDecisionProblem.ipynb
+    - j02_AGEN_LearningDynamics.ipynb
+    - j13_RESU_FinalRewardOutperformance.ipynb
+    - j14_RESU_FinalStrategies.ipynb
+    - j15_RESU_StrategyConvergence.ipynb
+    - j16_RESU_RewardConvergence.ipynb
+    - j83_AUX_RobustnessChecks.ipynb
+  appendices:
+    - j81_AUX_Simulation.ipynb
+    - j82_AUX_ObtainResultsData.ipynb
+metadata-files:
+  - authors.yml
+  # - abstract.yml
+
+format:
+  pdf:
+    keep-tex: false
+    highlight-style: arrow
+    documentclass: scrreprt
+    # documentclass: scrartcl
+    # shift-heading-level-by: 1
+    papersize: A4
+    geometry: 
+      - top=20mm
+      - left=20mm
+      - right=20mm
+      - bottom=25mm
+    fig-width: 9
+    fig-height: 7
+    # mathspec: true
+    include-in-header: 
+      text: |
+        \usepackage{mathtools,amsfonts,dsfont,amsmath,amssymb}
+        % landscape environment
+        \usepackage{lscape}
+        \newcommand{\blandscape}{\begin{landscape}{\tiny}
+        \newcommand{\elandscape}{\end{landscape}}}
+        %
+        % break long lines of code
+        \usepackage{fvextra} 
+        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}  
+        \DefineVerbatimEnvironment{OutputCode}{Verbatim}{breaklines,breakanywhere,commandchars=\\\{\}}
+    block-headings: false
+    link-citations: true
+    number-depth: 1
+    toc-depth: 2
+  # pdf:
+  #   # documentclass: scrartcl
+  #   # shift-heading-level-by: 1
+  #   # papersize: A4
+  #   # geometry: 
+  #   #   - top=20mm
+  #   #   - left=20mm
+  #   #   - right=20mm
+  #   #   - bottom=25mm
+  #   # fig-width: 9
+  #   # fig-height: 7
+  #   # mathspec: true
+  #   runninghead: "Supplementary Information ${}$" # The text on the top of each page of the output 
+  #   linenumbers: true # Add (continuous) line numbers?    
+  #   include-in-header: 
+  #     text: |
+  #       \usepackage{mathtools,amsfonts,dsfont,amsmath,amssymb}
+  #       \usepackage{lscape}
+  #       \newcommand{\blandscape}{\begin{landscape}{\tiny}
+  #       \newcommand{\elandscape}{\end{landscape}}}
+  #       %
+  #       % break long lines of code
+  #       \usepackage{fvextra} 
+  #       \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}  
+  #       \DefineVerbatimEnvironment{OutputCode}{Verbatim}{breaklines,commandchars=\\\{\}}
+  #   block-headings: false
+  #   link-citations: true
+  #   number-depth: 2
+  #   toc: true
+  #   # toc-depth: 3
+
+	
