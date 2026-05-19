@@ -329,7 +329,7 @@ In conclusion, our work demonstrates that sophisticated social learning strategi
 
 **Acknowledgments**. WB acknowledges financial support from the Cooperative AI Foundation. RPM was supported by a UKRI Future Leaders Fellowship (MR/X036863/1) and Templeton World Charity Foundation Inc. (TWCF‑2021‑20647).
 
-**Code availability.** All computer code was written in Python and is contained in reproducible Supplementary Information. It is openly available on GitHub at [URL] and archived on Zenodo at [DOI].
+**Code availability.** All computer code was written in Python and is contained in reproducible Supplementary Information. It is openly available on GitHub at \url{https://github.com/wbarfuss/Learning-Together-Better-Faster} and archived on Zenodo at \url{https://doi.org/10.5281/zenodo.20282129}.
 
 
 ## References

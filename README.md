@@ -6,7 +6,7 @@ Wolfram Barfuss, Paula Tittel, Richard P. Mann
 
 *Accepted for publication in Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences*, The Royal Society.
 
-> Code and data repository — GitHub: [URL] | Zenodo: [DOI]
+> Code and data repository — [GitHub](https://github.com/wbarfuss/Learning-Together-Better-Faster) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20282129.svg)](https://doi.org/10.5281/zenodo.20282129)
 
 ---
 
